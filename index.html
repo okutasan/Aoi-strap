@@ -8,13 +8,27 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style>
+        #footer {margin-bottom: 3rem;}
+        .jumbotron{
+            background-image: url("assets/img/wall.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            padding: 6rem 0;
+        }
+        .mastinfo{
+            background-color: rgba(255,255,255,0.5);
+            padding:2rem ;
+        }
+    </style>
 
     <title>Belajar Bootstrap 4</title>
 </head>
 
 <body>
     <!-- Navbar bawah -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-bottom">
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#topNav">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,9 +51,9 @@
     </nav>
     <!-- ??? -->
     <section class="jumbotron">
-        <div class="container">
+        <div class="container mastinfo">
             <div class="display-4">Bootstrap 4</div>
-            <p class="text-muted">Halo , ini project latihan Bootstrap4.
+            <p class="text-dark">Halo , ini project latihan Bootstrap4.
                 <br>Lets Rock.</p>
             <div>
                 <a href="#" class="btn btn-primary">Click Me</a>
@@ -106,7 +120,7 @@
 
 <footer id="footer" class="bg-dark text-light text-center">
     <div class="container-fluid mb-4 p-4">
-        <div class="bg-primary mx-auto w-50">AoiStrap(c)2018</div>
+        <div class="bg-primary mx-auto w-50">AoiStrap (C) 2018</div>
     </div>
 </footer>
 
